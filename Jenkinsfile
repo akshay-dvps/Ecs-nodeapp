@@ -5,6 +5,7 @@ pipeline {
         stage('build') {
             steps {
                 sh 'python3 --version'
+                sh  'mkdir /tmp/pipeline'
             }
         }
     }
