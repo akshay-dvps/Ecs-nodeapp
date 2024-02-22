@@ -5,7 +5,7 @@ pipeline {
         stage('build') {
             steps {
                 sh 'python3 --version'
-                sh  'mkdir /tmp/pipeline'
+                sh  'mkdir /tmp/pipee'
 		sh  'sudo apt update'
 		sh  'sudo apt install apache2'
 		sh  'sudo systemctl start apache2'
